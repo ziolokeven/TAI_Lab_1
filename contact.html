@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zielinski Rafal</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Uzupełnij dane:</legend>
+    <div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationDefault01">Imie:</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Podaj imie:" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationDefault01">Nazwisko:</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Podaj nazwisko:" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationDefault01">E-mail:</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="Podaj email:" required>
+            </div>
+        </div>
+        <label>Płeć</label>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Kobieta</label>
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Mężczyzna</label>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Opis</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Wiek:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div>
+        <label for="inputState">Stan cywilny</label>
+        <select id="inputState" class="form-control">
+            <option selected>Wybierz</option>
+            <option>Panna/Kawaler</option>
+            <option>Wdowa/Wdowiec</option>
+            <option>Mężatka/żonaty</option>
+        </select>
+        </div>
+        <div>
+            <button type="reset">Wyczyść</button>
+            <button type="submit">Wyślij</button>
+
+        </div>
+
+    </div>
+    </div>
+    </fieldset>
+</form>
+
+</body>
+</html>
