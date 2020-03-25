@@ -33,3 +33,13 @@ input{
    justify-content: center;
 
 }
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
