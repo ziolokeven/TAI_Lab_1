@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Zielinski Rafal</title>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -12,8 +13,52 @@
 <div class="navbar">
 
 </div>
+<div class="container list">
+    Question<span id="questionNumber"></span>: <h4 class="question"></h4>
+
+    Answers:
+    <ul class="list-group">
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
+    </ul>
+
+    <div class="buttons">
+        <button class="btn btn-danger previous">Previous</button>
+        <button class="btn btn-success next">Next</button>
+    </div>
+
+    <h4>Your score: <span class="score">0</span>/20 points.</h4>
+</div>
+<div class="container results" style="display: none">
+    <div class="btn-group-custom">
+        <button class="btn btn-success btn-custom restart">Retake quiz</button>
+    </div>
+    <div class="score">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Point/20</th>
+                <th>Average</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Your score</th>
+                <td class="userScorePoint"></td>
+                <td class="average"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
 
 
 <script src="js/navbar.js"></script>
+<script src="js/quiz.js"></script>
 </body>
 </html>
